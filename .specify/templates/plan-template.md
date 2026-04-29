@@ -29,9 +29,14 @@
 
 ## Constitution Check
 
-*GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
+_GATE: Must pass before Phase 0 research. Re-check after Phase 1 design._
 
-[Gates determined based on constitution file]
+**✅ Clean Code**: Code is readable, maintainable, with clear TypeScript types
+**✅ Simple UX**: Interface prioritizes simplicity and intuitive navigation  
+**✅ Responsive Design**: Works flawlessly across mobile, tablet, desktop
+**✅ Minimal Dependencies**: Dependencies justified and actively maintained
+**✅ No Testing Policy**: Explicitly excludes all testing - manual verification only
+**✅ Technology Stack**: Uses Next.js 16.2.4, React 19.2.4, Tailwind CSS ^4
 
 ## Project Structure
 
@@ -48,6 +53,7 @@ specs/[###-feature]/
 ```
 
 ### Source Code (repository root)
+
 <!--
   ACTION REQUIRED: Replace the placeholder tree below with the concrete layout
   for this feature. Delete unused options and expand the chosen structure with
@@ -63,18 +69,12 @@ src/
 ├── cli/
 └── lib/
 
-tests/
-├── contract/
-├── integration/
-└── unit/
-
 # [REMOVE IF UNUSED] Option 2: Web application (when "frontend" + "backend" detected)
 backend/
 ├── src/
 │   ├── models/
 │   ├── services/
 │   └── api/
-└── tests/
 
 frontend/
 ├── src/
@@ -98,7 +98,7 @@ directories captured above]
 
 > **Fill ONLY if Constitution Check has violations that must be justified**
 
-| Violation | Why Needed | Simpler Alternative Rejected Because |
-|-----------|------------|-------------------------------------|
-| [e.g., 4th project] | [current need] | [why 3 projects insufficient] |
-| [e.g., Repository pattern] | [specific problem] | [why direct DB access insufficient] |
+| Violation                  | Why Needed         | Simpler Alternative Rejected Because |
+| -------------------------- | ------------------ | ------------------------------------ |
+| [e.g., 4th project]        | [current need]     | [why 3 projects insufficient]        |
+| [e.g., Repository pattern] | [specific problem] | [why direct DB access insufficient]  |
